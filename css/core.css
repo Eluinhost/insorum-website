@@ -16,6 +16,10 @@
     right: -50%;
     top: 2rem;
 }
+.title-area .name h1 {
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+}
 .headertext h1 {
     font-family: 'Monoton', cursive;
     color: #ffffff;
@@ -57,8 +61,10 @@
     list-style: none;
     margin-left: 0;
     margin-bottom: 0;
+    overflow: hidden;
 }
-/*.faceslider li {
-    display: inline-block;
-    margin-left: -.33em;
-}*/
+.faceslider img {
+    width: 3rem;
+    height: 3rem;
+    margin-left: -.33rem;
+}

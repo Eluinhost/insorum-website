@@ -1,3 +1,6 @@
+body {
+    background: url('../img/escheresque.png') repeat;
+}
 .headerimg {
     background: #fff url('../img/bg.jpg') no-repeat fixed 50% 0;
     background-size: cover;

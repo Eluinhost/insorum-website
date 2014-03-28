@@ -1,21 +1,56 @@
 .headerimg {
-    background: #fff url('../img/bg.png') no-repeat fixed 50% 0;
+    background: #fff url('../img/bg.jpg') no-repeat fixed 50% 0;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
     padding: 0;
 }
+.outerheader {
+    position: absolute;
+    right: 50%;
+}
 .headertext {
     margin-top: 20px;
-    position: absolute;
-    float: left;
-    left: 20px;
-    top: 50px;
+    position: relative;
+    right: -50%;
+    top: 2rem;
+}
+.headertext h1 {
+    font-family: 'Monoton', cursive;
     color: #ffffff;
+}
+.headertext h1 span {
+    color: red;
+    font-size: 1.5rem;
+}
+.headertext img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8rem;
+    height: 8rem;
 }
 .menuoffset {
     padding-top: 45px;
+}
+.menu-bar h1 {
+    font-weight: normal;
+    color: white;
+    width: 50%;
+    display: block;
+    padding: 0 15px;
+    line-height: 45px;
+    font-size: 1.0625rem;
+    margin: 0;
+}
+.menu-bar {
+    overflow: hidden;
+    height: 45px;
+    line-height: 45px;
+    position: relative;
+    background: #333333;
+    margin-bottom: 0;
 }
 .faceslider {
     width: 100%;

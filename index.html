@@ -6,38 +6,34 @@
         <title>Foundation | Welcome</title>
         <link rel="stylesheet" href="css/foundation.css" />
         <link rel="stylesheet" href="css/core.css" />
+        <link href='http://fonts.googleapis.com/css?family=Monoton' rel='stylesheet' type='text/css'>
     </head>
     <body>
     <div class="clearfix"></div>
-    <div class="headertext center">
-        <h1 class="headline">Building Places That Inspire<span>.</span></h1>
-        <h3 class="tagline">Washington, DC</h3>
+    <div class="outerheader">
+        <div class="headertext center">
+            <img src="img/logo.png"/>
+            <h1 class="headline">insorum<span>.com</span></h1>
+        </div>
     </div>
     <div class="headerimg" data-stellar-background-ratio="0.5"></div>
     <div class="menu">
         <nav class="top-bar" data-topbar>
             <ul class="title-area">
                 <li class="name">
-                    <h1><a href="#">My Site</a></h1>
+                    <h1><a href="#">Insorum</a></h1>
                 </li>
-                <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+
             </ul>
 
             <section class="top-bar-section">
                 <!-- Right Nav Section -->
                 <ul class="right">
-                    <li class="active"><a href="#">Right Button Active</a></li>
-                    <li class="has-dropdown">
-                        <a href="#">Right Button Dropdown</a>
-                        <ul class="dropdown">
-                            <li><a href="#">First link in dropdown</a></li>
-                        </ul>
-                    </li>
+                    <li class="menu-icon"><a href="#">Menu</a></li>
                 </ul>
 
                 <!-- Left Nav Section -->
                 <ul class="left">
-                    <li><a href="#">Left Nav Button</a></li>
                 </ul>
             </section>
         </nav>
@@ -84,9 +80,7 @@
             stickyHeight = getStickyHeight();
 
             newHeight = windowHeight - stickyHeight;
-            if (newHeight < 350) {
-                newHeight = 350;
-            }
+
             $('.headerimg').css({ height: newHeight });
         }
 

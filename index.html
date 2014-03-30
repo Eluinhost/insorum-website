@@ -100,11 +100,51 @@
                 <li><img src="http://avatar.publicuhc.com/helm/haruko1"/></li>
             </ul>
         </div></div>
-        <div class="row">
-            <div class="6 columns push-3 lper">
-                <h1>Fuzzboxx | fuzzboxxlp</h1>
-                <div class="flex-video widescreen youtube">
-                    <iframe width="560" height="315" src="//www.youtube.com/embed/videoseries?list=UUR4yPopw5XVEEf1yFjf6_dw" frameborder="0" allowfullscreen></iframe>
+        <section class="pagetitle">
+            <div class="row">
+                <div class="12 columns text-center">
+                    <h1>INSORUM<span>.com</span></h1>
+                    <p>
+                        Some text here maybe
+                    </p>
+                </div>
+            </div>
+        </section>
+        <div class="youtuber">
+            <div class="fuzzboxx" data-stellar-background-ratio="0.5">
+                <div class="row">
+                    <div class="large-10 columns push-1 lper text-center">
+                        <div class="row">
+                            <div class="large-3 columns">
+                                <h1>Fuzzboxx</h1>
+                                <a href="#"><i class="fa fa-youtube-play"></i> fuzzboxxlp</a>
+                            </div>
+                            <div class="large-9 columns">
+                                <div class="flex-video widescreen youtube">
+                                    <iframe width="560" height="315" src="//www.youtube.com/embed/videoseries?list=UUR4yPopw5XVEEf1yFjf6_dw" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="youtuber">
+            <div class="sonmica" data-stellar-background-ratio="0.5">
+                <div class="row">
+                    <div class="large-10 columns push-1 lper text-center">
+                        <div class="row">
+                            <div class="large-3 columns">
+                                <h1>Sonmica</h1>
+                                <a href="#"><i class="fa fa-youtube-play"></i> sonmicalp</a>
+                            </div>
+                            <div class="large-9 columns">
+                                <div class="flex-video widescreen youtube">
+                                    <iframe width="560" height="315" src="//www.youtube.com/embed/videoseries?list=UUlVsPQyUcW7WqhGR4G6Fbkg" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -123,7 +163,11 @@
         $(document).foundation();
         var windowHeight,stickyHeight,newHeight;
         function refreshStellar() {
-            $(window).stellar({
+            $.stellar({
+                verticalScrolling: true,
+                horizontalScrolling: false
+            });
+            $('.youtuber').stellar({
                 verticalScrolling: true,
                 horizontalScrolling: false
             });
@@ -144,12 +188,12 @@
         }
 
         $( window ).resize(function() {
-            refreshStellar();
             resizeFold();
+            refreshStellar();
         });
 
         $('.faceslider').bxSlider({
-            minSlides: 15,
+            minSlides: 1,
             maxSlides: 100,
             slideWidth: 64,
             slideMargin: 0,
@@ -170,8 +214,8 @@
                 $('.content').removeClass('menuoffset');
             }
         };
-        refreshStellar();
         resizeFold();
+        refreshStellar();
     </script>
     </body>
 </html>

@@ -18,7 +18,16 @@ body {
     right: -50%;
     top: 2rem;
 }
+.pagetitle {
+    padding-top:30px;
+    padding-bottom:30px;
+}
 .title-area .name h1 {
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+}
+.lper h1,
+.lper a {
     font-family: 'Raleway', sans-serif;
     color: #ffffff;
 }
@@ -65,4 +74,49 @@ body {
     background: #333333;
     height: 64px;
     width: 100%;
+}
+.fuzzboxx {
+    background: #fff url('../img/fuzz.png') no-repeat fixed 50%  0;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+}
+.sonmica {
+    background: #fff url('../img/sonmica.png') no-repeat fixed 50% 0;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+}
+.zippo {
+    background: #fff url('../img/bg.jpg') no-repeat fixed 50% 0;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+}
+.fairy {
+    background: #fff url('../img/bg.jpg') no-repeat fixed 50% 0;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+}
+.mjlaukala {
+    background: #fff url('../img/bg.jpg') no-repeat fixed 50% 0;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+}
+.ripper {
+    background: #fff url('../img/bg.jpg') no-repeat fixed 50% 0;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+}
+.lper {
+    padding-top: 15px;
 }

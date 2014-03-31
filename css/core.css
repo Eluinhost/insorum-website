@@ -39,10 +39,11 @@ body {
     -ms-transition: all 0.5s linear;
     -o-transition: all 0.5s linear;
     transition: all 0.5s linear;
+    opacity: 0.7;
 }
 
 .all_channels a:hover img {
-    opacity: 0.5;
+    opacity: 1;
 
 }
 .lper h1,
@@ -164,4 +165,10 @@ body {
 }
 .lper {
     padding-top: 15px;
+}
+.footer .name h1 a{
+    color: grey;
+}
+.footer {
+    padding-top: 10px;
 }

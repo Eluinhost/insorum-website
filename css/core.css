@@ -31,11 +31,19 @@ body {
     font-family: 'Raleway', sans-serif;
     color: #ffffff;
 }
-.headertext h1 {
+.insorum {
     font-family: 'Monoton', cursive;
     color: #ffffff;
 }
-.headertext h1 span {
+.insorum span {
+    color: red;
+    font-size: 1.5rem;
+}
+.insorum-invert {
+    color: #000000;
+    font-family: 'Monoton', cursive;
+}
+.insorum-invert span {
     color: red;
     font-size: 1.5rem;
 }
@@ -74,6 +82,10 @@ body {
     background: #333333;
     height: 64px;
     width: 100%;
+}
+.youtuber blockquote,
+.youtuber blockquote cite {
+    color: #ffffff;
 }
 .fuzzboxx {
     background: #fff url('../img/fuzz.png') no-repeat fixed 50%  0;

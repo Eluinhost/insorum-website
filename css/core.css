@@ -26,10 +26,29 @@ body {
     font-family: 'Raleway', sans-serif;
     color: #ffffff;
 }
+.all_channels a {
+    display: inline-block;
+    background: black;
+    padding: 0;
+}
+
+.all_channels a img {
+    display: block;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+
+.all_channels a:hover img {
+    opacity: 0.5;
+
+}
 .lper h1,
 .lper a {
     font-family: 'Raleway', sans-serif;
-    color: #ffffff;
+    color: #000000;
 }
 .insorum {
     font-family: 'Monoton', cursive;
@@ -85,7 +104,7 @@ body {
 }
 .youtuber blockquote,
 .youtuber blockquote cite {
-    color: #ffffff;
+    color: #000000;
 }
 .fuzzboxx {
     background: #fff url('../img/fuzz.png') no-repeat fixed 50%  0;
@@ -101,14 +120,14 @@ body {
     -o-background-size: cover;
     -moz-background-size: cover;
 }
-.zippo {
+.lit_zippo {
     background: #fff url('../img/bg.jpg') no-repeat fixed 50% 0;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
 }
-.fairy {
+.fairyjuice {
     background: #fff url('../img/bg.jpg') no-repeat fixed 50% 0;
     background-size: cover;
     -webkit-background-size: cover;
@@ -116,13 +135,27 @@ body {
     -moz-background-size: cover;
 }
 .mjlaukala {
+    background: #fff url('../img/mjlaukala.jpg') no-repeat fixed 50% 0;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+}
+.rippersteve {
     background: #fff url('../img/bg.jpg') no-repeat fixed 50% 0;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
 }
-.ripper {
+.eluinhost {
+    background: #fff url('../img/bg.jpg') no-repeat fixed 50% 0;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+}
+.eddcase {
     background: #fff url('../img/bg.jpg') no-repeat fixed 50% 0;
     background-size: cover;
     -webkit-background-size: cover;
